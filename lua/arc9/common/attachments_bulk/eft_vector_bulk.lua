@@ -476,3 +476,43 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_vector_kriss_thread_prote
 ATT.Category = {"eft_ump_muzzle", "eft_vector45_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_vector_cap")
+
+
+///////////////////////////////////////      eft_vector_skin_fde
+
+ATT = {}
+
+ATT.PrintName = "FDE"
+ATT.CompactName = "FDE"
+ATT.Icon = Material("entities/arc9_eft_vector9.png", "mips smooth")
+ATT.Description = [[FDE color instead of black VECTOR parts.
+
+Not presents in EFT, custom att.]]
+
+ATT.SortOrder = -90
+
+ATT.SubMaterial1 = "models/weapons/arc9/darsu_eft/vector/weapon_tdi_kriss_vector_gen_2_9x19_lod0"
+
+ATT.Category = {"eft_custom_slot_vector",}
+
+ARC9.LoadAttachment(ATT, "eft_vector_skin_fde")
+
+
+///////////////////////////////////////      eft_vector_skin_black
+
+ATT = {}
+
+ATT.PrintName = "BLACK"
+ATT.CompactName = "BLACK"
+ATT.Icon = Material("entities/arc9_eft_vector45.png", "mips smooth")
+ATT.Description = [[BLACK color instead of FDE VECTOR parts.
+
+Not presents in EFT, custom att.]]
+
+ATT.SortOrder = -90
+
+ATT.SubMaterial1 = "models/weapons/arc9/darsu_eft/vector/weapon_tdi_kriss_vector_gen_2_1143x23_lod0"
+
+ATT.Category = {"eft_custom_slot_vector",}
+
+ARC9.LoadAttachment(ATT, "eft_vector_skin_black")
