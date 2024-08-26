@@ -283,6 +283,8 @@ ATT.CustomPros = { Ergonomics = "+2" }
 -- ATT.VisualRecoilMult = 0.66
 -- ATT.RecoilMult = 0.66
 
+ATT.Category = {"eft_vector_stockcaap"}
+
 ARC9.LoadAttachment(ATT, "eft_stock_vector_cap")
 
 
