@@ -497,6 +497,18 @@ ATT.SubMaterial1 = "models/weapons/arc9/darsu_eft/vector/weapon_tdi_kriss_vector
 
 ATT.Category = {"eft_custom_slot_vector",}
 
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_slot_vector"},
+ 
+    },
+}
+
+ATT.Max = 1
+
 ARC9.LoadAttachment(ATT, "eft_vector_skin_fde")
 
 
@@ -516,5 +528,17 @@ ATT.SortOrder = -90
 ATT.SubMaterial1 = "models/weapons/arc9/darsu_eft/vector/weapon_tdi_kriss_vector_gen_2_1143x23_lod0"
 
 ATT.Category = {"eft_custom_slot_vector",}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_slot_vector"},
+ 
+    },
+}
+
+ATT.Max = 1
 
 ARC9.LoadAttachment(ATT, "eft_vector_skin_black")
