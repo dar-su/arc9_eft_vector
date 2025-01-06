@@ -64,8 +64,16 @@ SWEP.DamageLookupTable = {
 
 SWEP.RPM = 950
 
-SWEP.Recoil = 0.6 * 0.86 -- general multiplier of main recoil
-SWEP.VisualRecoil = 1 * 0.86 -- general multiplier for it
+SWEP.Recoil = 0.525 -- general multiplier of main recoil
+
+SWEP.RecoilUp   = 2.2   -- up recoil
+SWEP.RecoilSide = 2.0 -- sideways recoil
+SWEP.RecoilRandomUp   = 0.75 -- random up/down
+SWEP.RecoilRandomSide = 0.9   -- random left/right
+
+SWEP.RecoilAutoControl = 5.0 -- autocompenstaion, could be cool if set to high but it also affects main recoil
+
+SWEP.SubtleVisualRecoil = 0.5
 
 SWEP.ShellModel = "models/weapons/arc9/darsu_eft/shells/9x19.mdl"
 
