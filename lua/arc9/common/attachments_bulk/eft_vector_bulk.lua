@@ -217,7 +217,7 @@ ATT.CustomPros = { Ergonomics = "+7", ["Recoil while unfolded"] = "-22%" }
 -- ATT.RecoilMult = 0.66
 
 ATT.Category = {"eft_vector_stock"}
-ATT.HasStock = true
+-- ATT.HasStock = true
 
 ATT.ActivateElements = {"eft_stock_vector_std_unfolded"}
 ATT.ToggleStats = {
@@ -225,6 +225,7 @@ ATT.ToggleStats = {
         PrintName = "Unfolded",
         RecoilMult = 0.78,
         VisualRecoilMult = 0.78,
+        HasStock = true
     },
     {
         PrintName = "Folded",

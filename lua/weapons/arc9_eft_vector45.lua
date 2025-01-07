@@ -48,6 +48,14 @@ SWEP.CustomizePos = Vector(16, 25, 5.0)
 SWEP.CustomizeSnapshotFOV = 95
 SWEP.CustomizeRotateAnchor = Vector(15.5, -4.28, -5.23)
 
+-- this thing can one hand sprint
+local handupang, handuppos, handupholdtype = Angle(-2, 40, -7), Vector(1, -5, -6), "normal"
+SWEP.OneHandedSprint = true
+SWEP.OneHandedSprintHook = function(self, old) if self:GetValue("HasStock") then return false end end
+SWEP.SprintAngHook = function(self, old) if !self:GetValue("HasStock") then return handupang end end
+SWEP.SprintPosHook = function(self, old) if !self:GetValue("HasStock") then return handuppos end end
+SWEP.HoldTypeSprintHook = function(self, old) if !self:GetValue("HasStock") then return handupholdtype end end
+
 ------------------------- |||           Stats            ||| -------------------------
 
 SWEP.Spread = 8.594 * ARC9.MOAToAcc
@@ -57,7 +65,7 @@ SWEP.BarrelLength = 30
 SWEP.Firemodes = {
     { Mode = -1, PoseParam = 3},
     { Mode = 1, RPM = 450, PoseParam = 1 },
-    { Mode = 2, PoseParam = 2},
+    { Mode = 2, PoseParam = 2, RunawayBurst = true},
 }
 
 SWEP.Slot = 2
