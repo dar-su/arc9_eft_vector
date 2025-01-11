@@ -62,6 +62,7 @@ SWEP.Spread = 8.594 * ARC9.MOAToAcc
 SWEP.RPM = 1100
 SWEP.EFTErgo = 65
 SWEP.BarrelLength = 30
+SWEP.Ammo = "pistol"
 SWEP.Firemodes = {
     { Mode = -1, PoseParam = 3},
     { Mode = 1, RPM = 450, PoseParam = 1 },
