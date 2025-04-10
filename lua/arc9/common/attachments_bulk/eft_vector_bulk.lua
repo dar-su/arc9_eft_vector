@@ -233,6 +233,7 @@ ATT.ToggleStats = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 ARC9.LoadAttachment(ATT, "eft_stock_vector_std")
 
 ///////////////////////////////////////      eft_stock_vector_adap
