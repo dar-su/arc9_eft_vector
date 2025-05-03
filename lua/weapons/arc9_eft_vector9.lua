@@ -7,10 +7,10 @@ SWEP.Base = "arc9_eft_vector45"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
 
-SWEP.PrintName = "KRISS Vector 9x19"
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_vector9")
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_vector_9.mdl"
 
-SWEP.Description = [[The KRISS Vector SMG is the ideal choice for law enforcement and military seeking a controllable and compact weapon system for close quarter combat environments. The low bore axis and Super V recoil mitigation system allow for controllable shots when firing in full-automatic, or fast semi-automatic follow up shots. Compatible with Glock 9x19 magazines.]]
+SWEP.Description = "eft_weapon_vector9_desc"
 
 -- default pst ghz
 
